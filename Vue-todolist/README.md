@@ -1,4 +1,4 @@
-# demo2
+# Vue-todolist
 
 > A Vue.js project
 
