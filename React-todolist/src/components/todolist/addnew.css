@@ -1,0 +1,28 @@
+#addNew {
+  text-align: center;
+}
+#addNew input{
+  width: 780px;
+  height: 20px;
+  padding: 5px 0 5px 20px;
+  border: 1px solid #d3d3c1;
+  transition: all 0.5s ease;
+}
+#addNew input:focus{
+  box-shadow: 0 0 3px #00b1ff;
+}
+#addNew button{
+  width: 200px;
+  height: 30px;
+  font-size: 14px;
+  line-height: 30px;
+  cursor: pointer;
+  background: #00b1ff;
+  border: none;
+  color: #ffffff;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+#addNew button:hover{
+  background: #0c9cdd;
+}

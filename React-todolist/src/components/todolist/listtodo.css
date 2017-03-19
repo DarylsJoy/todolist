@@ -1,0 +1,44 @@
+#list{
+  list-style: none;
+  padding: 30px;
+  width: 800px;
+  margin: 0 auto;
+  transition: all 0.5s ease;
+}
+#list li{
+  cursor: pointer;
+  color: #4d4d4d;
+  transition: all 0.5s ease;
+  font-size: 14px;
+  height: 20px;
+  line-height: 20px;
+  margin: 10px 0;
+  padding: 0;
+  text-align: left;
+  border-left: 3px solid #00b1ff;
+}
+#list li .things{
+  display: inline-block;
+  width: 755px;
+  transition: all 0.5s ease;
+  padding-left: 10px;
+}
+#list li .things:hover{
+  text-shadow: 0 0 3px #dedecc;
+}
+#list .finished .things{
+  text-decoration: line-through;
+}
+#list .finished{
+  border-left: 3px solid #02ff2f;
+}
+#list .delete{
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+  color: #a7a7a7;
+  transition: all 0.3s ease;
+}
+#list .delete:hover{
+  color: #ff2146;
+}
