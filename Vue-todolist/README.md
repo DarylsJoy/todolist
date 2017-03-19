@@ -1,5 +1,6 @@
 # Vue-todolist
 
+<a href="http://daryldong.com/vuetodolist" target="_blank">demo</a>
 > A Vue.js project
 
 ## Build Setup
